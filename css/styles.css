@@ -1,0 +1,41 @@
+html,
+body {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  margin: 20px;
+}
+.lrSides {
+  width: 10px;
+  height: 100px;
+}
+
+.fSides {
+  width: 10px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}
+
+.tbSides {
+  width: 100px;
+  height: 10px;
+  position: relative;
+  top: -98px;
+}
+
+.unclicked {
+  background-color: #f5f6f5;
+  display: inline-block;
+}
+
+center {
+  position: absolute;
+  top:50%;
+   left:50%;
+   -ms-transform: translateX(-50%) translateY(-50%);
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+}
