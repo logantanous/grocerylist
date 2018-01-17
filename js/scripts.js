@@ -30,9 +30,11 @@ $(document).ready(function() {
     var lastNumber = idName.substring(3,4);
     //alert(firstNumber+" "+lastNumber);
     if (idName.substring(0,1) == "v") {
-        if($("#v1-1").hasClass("unclicked") == true) {
-          alert("test");
-        }
+        $(".unclicked").click(function(event) {
+          if ($(".clicked")[0]){//it has the class of clicked
+            alert("test");
+          }
+        });
     }
     //if (idName.substring(0,1) == "h") {}
 
