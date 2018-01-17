@@ -10,13 +10,7 @@ body {
 .lrSides {
   width: 10px;
   height: 100px;
-}
-
-.fSides {
-  width: 10px;
-  height: 100px;
   display: inline-block;
-  position: relative;
 }
 
 .tbSides {
@@ -24,11 +18,12 @@ body {
   height: 10px;
   position: relative;
   top: -98px;
+  display: inline-block;
 }
 
 .unclicked {
   background-color: #f5f6f5;
-  display: inline-block;
+
 }
 
 center {
